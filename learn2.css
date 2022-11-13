@@ -1,0 +1,133 @@
+
+body{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-image: url("dummy images/about.jpeg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-color:white;
+  
+}
+/*----navbar--*/
+.navbar{
+    border:1px solid rgb(8, 8, 8);
+    border: none;
+    background-color:transparent;
+    overflow: hidden;
+}
+.img1{
+    margin:auto;
+}
+
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+   margin-right: 80px;
+    border: 2px solid transparent;
+    opacity: 1;
+    color: gold;
+    font-weight: bolder;
+}
+.nav-link:hover{
+    border-bottom: 5px solid rgb(2, 27, 250);
+    color: white;
+   
+}
+.img2{
+    margin: auto;
+    justify-content: center;
+    border: 1px solid red;
+    border: none;
+width:40%;
+display: block;
+margin-top: 50px;
+}
+.Connecting{
+    color: rgb(12, 12, 12);
+    border: 1px solid black;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+   
+
+}
+.box1{
+    background-color: white;
+    opacity: 0.8;
+    height: 60vh;
+    padding: 10px;
+    
+}
+.box2{
+    width: 90%;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    background-color: rgb(254, 254, 255);
+margin: auto;
+padding: 20px;
+}
+.img3{
+    margin: auto;
+    width: 100px;
+    display: block;
+   
+}
+.img4{
+    float: right;
+    width: 100px;
+}
+.contact{
+
+text-align: left;
+}
+.bottom{
+  
+    border: 1px solid black;
+    border: none;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+.we{
+    background-color: goldenrod;
+}
+.we a{
+text-decoration: none;
+color: rgb(56, 54, 54);
+font-weight: 600;
+}
+
+.footer{
+    max-width:80% ;
+    margin: 6rem auto;
+    position: relative;
+    
+ }
+ .footer,
+ footer a{
+     color: rgb(143, 140, 140);
+     font-size: 1rem;
+    text-decoration: none;
+    overflow-x:scroll;
+ }
+ .con{
+     list-style: none;
+ }
+ .footer .footer-cols{
+     display: grid;
+     grid-template-columns: repeat(5,1fr);
+     grid-gap: 2rem;
+ }
+ .footer li{
+     line-height: 2;
+ }
+ .footer a:hover{
+    color: rgb(36, 35, 35);
+
+}

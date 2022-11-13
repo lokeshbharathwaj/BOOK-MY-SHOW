@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-image: url("dummy images/bgavg.jpeg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-color:rgb(9, 13, 59);
+  
+}
+/*----navbar--*/
+.navbar{
+    border:1px solid rgb(8, 8, 8);
+    border: none;
+    background-color:transparent;
+    overflow: hidden;
+}
+.img1{
+    margin:auto;
+}
+
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+   margin-right: 80px;
+    border: 2px solid transparent;
+    opacity: 1;
+    color: gold;
+}
+.nav-link:hover{
+    border-bottom: 2px solid gainsboro;
+    color: whitesmoke;
+}
+.form-control{
+    width: 100%;
+    border-right: none;
+   
+    background: transparent;
+}
+.btn1{
+   
+    background-color: transparent;
+    border: 1px solid rgb(228, 225, 225);
+    border-left:none ;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+.navbar-toggler{
+    margin-left: 320px;
+    margin-top: -50px;
+}
+.Positions{
+background-color:goldenrod;
+color: rgb(10, 10, 10);
+text-align: center;
+width:fit-content;
+display: block;
+margin: auto;
+padding: 20px;
+border-radius: 10px;
+font-weight: bolder;
+
+}
+.Positions a{
+    text-decoration: none;
+    color: black;
+    
+}
+.Positions:hover{
+    border: 3px solid white ;
+}
+.img2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.row{
+    width: 80%;
+    margin: auto;
+}
+
+.col{
+    color: rgb(199, 127, 127);
+    text-align: center;
+    background-color: rgb(42, 65, 85);
+    margin-top: 50px;
+    width: 80%;
+    padding: 20px;
+}
+.bottom{
+    margin-top: 30px;
+    border: 1px solid black;
+    border: none;
+}
+.we{
+    background-color: goldenrod;
+}
+.we:hover{
+    border: 3px solid whitesmoke;
+}
+.we a{
+text-decoration: none;
+color: whitesmoke;
+font-weight: 600;
+}
+
+.footer{
+    max-width:80% ;
+    margin: 6rem auto;
+    position: relative;
+    
+ }
+ .footer,
+ footer a{
+     color: rgb(143, 140, 140);
+     font-size: 1rem;
+    text-decoration: none;
+    overflow-x:scroll;
+ }
+ .con{
+     list-style: none;
+ }
+ .footer .footer-cols{
+     display: grid;
+     grid-template-columns: repeat(5,1fr);
+     grid-gap: 2rem;
+ }
+ .footer li{
+     line-height: 2;
+ }
+ .footer a:hover{
+    color: rgb(253, 252, 252);
+
+}

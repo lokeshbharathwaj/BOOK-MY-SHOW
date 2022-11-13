@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   
+  background-color:rgb(255, 253, 253);
+  
+}
+.container-fluid{
+    width: 80%;
+}
+/*----navbar--*/
+.navbar{
+    border:1px solid rgb(8, 8, 8);
+    border: none;
+    background-color:transparent;
+    overflow: hidden;
+}
+.img1{
+    margin:auto;
+}
+
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+   margin-right: 80px;
+    border: 2px solid transparent;
+    opacity: 1;
+    color: gold;
+}
+.nav-link:hover{
+    border-bottom: 2px solid rgb(95, 93, 93);
+}
+.modal-body{
+    border: 1px solid rgb(248, 246, 246);
+    border: none;
+    text-decoration: none;
+    text-align: center; 
+ }
+ .form-control1{
+    border: 5px solid gold;
+    border-radius: 8px;
+ }
+ .label-form{
+    font-weight: 700;
+    
+ }
+ .btn2{
+    background-color: goldenrod;
+    color: hsl(0, 0%, 5%);
+    border: 2px solid rgb(10, 10, 10);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 700;
+    margin: auto;
+    
+
+}
+.btn2:hover{
+    color:rgb(214, 209, 209);
+    background-color:rgb(65, 63, 65);
+
+}
+.appbn{
+    margin:auto;
+    background-color: goldenrod;
+    width:150px;
+    height:80px;
+    display: flex;
+    padding: 10px;
+  
+}
+.appbn a{
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+}
+.appbn:hover{
+    border: 3px solid white;
+    background-color: rgb(139, 103, 10);
+}
+.bottom{
+    margin-top: 30px;
+    border: 1px solid black;
+    border: none;
+}
+.we{
+    background-color: goldenrod;
+}
+.we a{
+text-decoration: none;
+color: rgb(245, 244, 244);
+font-weight: 600;
+}
+
+.footer{
+    max-width:80% ;
+    margin: 6rem auto;
+    position: relative;
+    
+ }
+ .footer,
+ footer a{
+     color: rgb(143, 140, 140);
+     font-size: 1rem;
+    text-decoration: none;
+    overflow-x:scroll;
+ }
+ .con{
+     list-style: none;
+ }
+ .footer .footer-cols{
+     display: grid;
+     grid-template-columns: repeat(5,1fr);
+     grid-gap: 2rem;
+ }
+ .footer li{
+     line-height: 2;
+ }
+ .footer a:hover{
+    color: rgb(82, 79, 79);
+
+}
